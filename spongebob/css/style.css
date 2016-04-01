@@ -7,7 +7,7 @@ html {
 }
 body {
   display: table-row;
-  background: #000 radial-gradient(1000px 500px, #c1cdcd, #000);
+  background: #000 radial-gradient(1000px 500px, #3f546b, #000);
 }
 .wrapper {
   display: table-cell;
@@ -26,10 +26,10 @@ body {
   width: 220px;
   text-align: left;
   font-family: "Doppio One", sans-serif;
-  color: #76EEC6;
+  color: #ccc;
 }
 h1, h2 {
-  color: #f0ff00;
+  color: #fff;
   margin: 0;
   font-weight: normal;
 }
@@ -65,8 +65,8 @@ h2 {
   margin: 0 auto;
   width: 24px;
   height: 24px;
-  background-color:#0000cd;
-  border: solid 2px #0000cd;
+  background-color: #666;
+  border: solid 2px #ccc;
   border-radius: 8px;
   color: #999;
   text-align: center;
@@ -74,9 +74,9 @@ h2 {
   cursor: pointer;
 }
 .dif-options input:checked + label {
-  color:#00ffff;
-  background-color: #ec325b;
-  border-color: #00ffff;
+  color: #fff;
+  background-color: #593f6b;
+  border-color: #fff;
   cursor: default;
 }
 .freeze .dif-options input:not(:checked) + label {
@@ -102,10 +102,10 @@ h2 {
   padding: 2px 12px 4px;
   font-family: "Doppio One", sans-serif;
   font-size: 24px;
-  border: solid 2px #7cfc00;
+  border: solid 2px #ccc;
   border-radius: 8px;
-  background-color: #ec325b;
-  color: 	#7cfc00;
+  background-color: #593f6b;
+  color: #fff;
   cursor: pointer;
 }
 .start button:focus {
@@ -120,7 +120,7 @@ h2 {
   width: 428px;
   height: 428px;
   margin-top: 68px;
-  background-image: url(https://lh3.googleusercontent.com/-kGlrnFu2VEw/VMHD9bBcKkI/AAAAAAAAAC0/sXXpkk2UzgQ/spongebob-about-web-desktop.jpg);
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/77020/board.png);
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4);
 }
 .lit-columns, .lit-cells, .chips, .click-columns {
@@ -143,7 +143,7 @@ h2 {
   position: absolute;
   width: 60px;
   height: 60px;
-  background-color: #0000cd;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .chips div {
   position: absolute;
@@ -152,10 +152,10 @@ h2 {
   backface-visibility: hidden;
 }
 .chips .p1 {
-  background-image: url(http://3.bp.blogspot.com/-Hu60oFpcvPY/VU144yqKoMI/AAAAAAAAJD4/5Ut-TiSIPgk/s60-c/gambar%2Bspongebob%2B4.png);
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/77020/p1-chip.png);
 }
 .chips .p2 {
-  background-image: url(http://gdp.alicdn.com/imgextra/i1/2217312840/TB2uXXCeVXXXXbYXpXXXXXXXXXX_!!2217312840.png);
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/77020/p2-chip.png);
 }
 .chips .cursor {
   bottom: 428px;
