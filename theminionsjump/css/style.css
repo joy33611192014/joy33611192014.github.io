@@ -4,7 +4,7 @@
 
 body {
 	margin: 0; padding: 0;
-	font-family: 'Arial', cursive;
+	font-family: 'Comic Sans', cursive;
 }
 
 .container {
@@ -19,7 +19,7 @@ canvas {
 	height: 552px;
 	width: 422px;
 	display: block;
-	background: url(https://pixabay.com/static/uploads/photo/2014/01/22/19/44/flower-garden-250016_960_720.jpg) top left;
+	background: url(http://i.imgur.com/I3gIW6u.jpg) top left;
 }
 
 #scoreBoard {
